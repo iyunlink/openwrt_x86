@@ -1,0 +1,20 @@
+Source-Makefile: feeds/iyunlink/ylx_hotplug/Makefile
+
+Package: ylx_hotplug
+Version: 1.0.0-1
+Depends: +libc 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: LINK4ALL
+Repository: base
+Title: ylx_hotplug
+Maintainer: 
+Source: 
+Type: ipkg
+Description: ylx_hotplug
+
+@@
+
+

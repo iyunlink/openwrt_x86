@@ -1,0 +1,21 @@
+Source-Makefile: feeds/iyunlink/quectel-CM/Makefile
+
+Package: quectel-CM
+Submenu: WWAN Support
+Version: 1.6.4-1
+Depends: +libc 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: LINK4ALL
+Repository: base
+Title: quectel-CM
+Maintainer: 
+Source: 
+Type: ipkg
+Description: quectel-CM
+
+@@
+
+

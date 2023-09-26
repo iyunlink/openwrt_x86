@@ -1,0 +1,81 @@
+Source-Makefile: feeds/iyunlink/quectel-CM/Makefile
+
+Package: quectel-CM
+Submenu: WWAN Support
+Version: 1.6.4-1
+Depends: +libc 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: LINK4ALL
+Repository: base
+Title: quectel-CM
+Maintainer: 
+Source: 
+Type: ipkg
+Description: quectel-CM
+
+@@
+
+
+Source-Makefile: feeds/iyunlink/quectel_Gobinet/Makefile
+
+Package: kmod-gobinet
+Submenu: WWAN Support
+Version: <LINUX_VERSION>+1.6.3-1
+Depends: +kmod-usb-net
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: kernel
+Category: LINK4ALL
+Title: Quectel Linux USB Gobinet Driver
+Maintainer: 
+Source: 
+Type: ipkg
+Description:   Quectel Linux USB gobinet Driver
+
+@@
+
+
+Source-Makefile: feeds/iyunlink/quectel_QMI_WWAN/Makefile
+
+Package: kmod-qmi_wwan_q
+Submenu: WWAN Support
+Version: <LINUX_VERSION>+3.0-2
+Depends: +kmod-usb-net +kmod-usb-wdm
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: kernel
+Category: LINK4ALL
+Title: Quectel Linux USB QMI WWAN Driver
+Maintainer: 
+Source: 
+Type: ipkg
+Description:   Quectel Linux USB QMI WWAN Driver
+
+@@
+
+
+Source-Makefile: feeds/iyunlink/ylx_hotplug/Makefile
+
+Package: ylx_hotplug
+Version: 1.0.0-1
+Depends: +libc 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: LINK4ALL
+Repository: base
+Title: ylx_hotplug
+Maintainer: 
+Source: 
+Type: ipkg
+Description: ylx_hotplug
+
+@@
+
+
